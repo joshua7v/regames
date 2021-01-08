@@ -1,0 +1,10 @@
+root = true
+
+[*]
+indent_style = space
+max_line_length = 120
+indent_size = 4
+end_of_line = lf
+
+[*.{ts,tsx,js,jsx,json,css,scss,html,gql,ex,eex}]
+indent_size = 2
