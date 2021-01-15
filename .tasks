@@ -5,3 +5,7 @@ cwd=$(VIM_ROOT)
 [project-run]
 command:c,cpp=build\main.exe
 cwd=$(VIM_ROOT)
+
+[project-debug]
+command:c,cpp=devenv build\main.exe
+cwd=$(VIM_ROOT)
